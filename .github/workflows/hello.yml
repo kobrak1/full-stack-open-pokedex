@@ -17,3 +17,9 @@ jobs:
       # This step uses the 'echo' command to output "Hello World!"
       - name: Say Hello
         run: echo "Hello World!"
+
+  date-now:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print the time
+        run: ls -l
